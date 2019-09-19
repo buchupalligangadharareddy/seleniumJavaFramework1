@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="Name" value="Gangubhai"/>
+  <test name="Test1">
+    <parameter name="Name" value="Gangubhai"/>
+    <classes>
+      <class name="demo.TestNGParamatersDemo"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Failed suite [Suite1] -->

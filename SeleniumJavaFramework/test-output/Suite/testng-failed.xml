@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test1">
+    <groups>
+      <define name="regression1">
+        <include name="sanity"/>
+        <include name="regression"/>
+        <include name="smoke"/>
+      </define> <!-- regression1 -->
+      <define name="regression2">
+        <include name="sanity"/>
+        <include name="regression"/>
+        <include name="smoke"/>
+      </define> <!-- regression2 -->
+      <run>
+        <include name="regression1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="demo.TestNGGroupsDemo"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Failed suite [Suite] -->
